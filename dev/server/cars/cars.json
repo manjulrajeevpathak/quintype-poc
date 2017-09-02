@@ -1,74 +1,110 @@
-{
-  "car1": {
-      "lat": "5",
-      "lon": "6",
-      "isOccupied": "no",
-      "isRed": "no"
+[
+    {
+      "car": {
+          "name": "car1",
+          "lat": "5",
+          "lon": "6",
+          "isOccupied": "no",
+          "isRed": "no"
+        }
+    },
+    {
+      "car": {
+          "name": "car2",
+          "lat": "2",
+          "lon": "9",
+          "isOccupied": "no",
+          "isRed": "yes"
+        }
+    },
+    {   
+          "car": {
+              "name": "car3",
+              "lat": "2",
+              "lon": "41",
+              "isOccupied": "no",
+              "isRed": "yes"
+          }
+    },
+    {
+        "car": {
+            "name": "car4",
+          "lat": "5",
+          "lon": "8",
+          "isOccupied": "no",
+          "isRed": "yes"
+        }
+    },
+    {
+          "car": {
+              "name": "car5",
+              "lat": "12",
+              "lon": "7",
+              "isOccupied": "no",
+              "isRed": "no"
+          }
   },
-  "car2": {
-      "lat": "2",
-      "lon": "9",
-      "isOccupied": "no",
-      "isRed": "yes"
+  {
+          "car": {
+              "name": "car6",
+              "lat": "1",
+              "lon": "5",
+              "isOccupied": "no",
+              "isRed": "yes"
+          }
   },
-  "car3": {
-      "lat": "2",
-      "lon": "41",
-      "isOccupied": "no",
-      "isRed": "yes"
+  {
+          "car": {
+              "name": "car7",
+              "lat": "23",
+              "lon": "2",
+              "isOccupied": "no",
+              "isRed": "no"
+          }
   },
-  "car4": {
-      "lat": "5",
-      "lon": "8",
-      "isOccupied": "no",
-      "isRed": "yes"
+  {
+          "car": {
+              "name": "car8",
+              "lat": "33",
+              "lon": "23",
+              "isOccupied": "no",
+              "isRed": "yes"
+          }
   },
-  "car5": {
-      "lat": "12",
-      "lon": "7",
-      "isOccupied": "no",
-      "isRed": "no"
+  {
+          "car": {
+              "name": "car9",
+              "lat": "22",
+              "lon": "5",
+              "isOccupied": "no",
+              "isRed": "no"
+          }
   },
-  "car6": {
-      "lat": "1",
-      "lon": "5",
-      "isOccupied": "no",
-      "isRed": "yes"
+  {
+          "car": {
+              "name": "car10",
+              "lat": "23",
+              "lon": "87",
+              "isOccupied": "no",
+              "isRed": "yes"
+          }
   },
-  "car7": {
-      "lat": "23",
-      "lon": "2",
-      "isOccupied": "no",
-      "isRed": "no"
+          {
+          "car": {
+              "name": "car11",
+              "lat": "28",
+              "lon": "12",
+              "isOccupied": "no",
+              "isRed": "yes"
+          }
   },
-  "car8": {
-      "lat": "33",
-      "lon": "23",
-      "isOccupied": "no",
-      "isRed": "yes"
-  },
-  "car9": {
-      "lat": "22",
-      "lon": "5",
-      "isOccupied": "no",
-      "isRed": "no"
-  },
-  "car10": {
-      "lat": "23",
-      "lon": "87",
-      "isOccupied": "no",
-      "isRed": "yes"
-  },
-  "car11": {
-      "lat": "28",
-      "lon": "12",
-      "isOccupied": "no",
-      "isRed": "yes"
-  },
-  "car12": {
-      "lat": "23",
-      "lon": "87",
-      "isOccupied": "no",
-      "isRed": "no"
+          {
+          "car": {
+              "name": "car12",
+              "lat": "23",
+              "lon": "87",
+              "isOccupied": "no",
+              "isRed": "no"
+            }
   }
-}
+]

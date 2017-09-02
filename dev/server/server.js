@@ -1,5 +1,4 @@
 var restify     =   require('restify');
-var mongojs     =   require('mongojs');
 var	morgan  	= 	require('morgan');
 var server      =   restify.createServer();
 var fs          =   require('fs');
