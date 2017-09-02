@@ -1,13 +1,23 @@
 var carAvailability = require('./availableCars');
-
 module.exports = function (server, obj) {
-
+//This API books the cab and returns the details of nearest cab
 server.post('/api/v1/bookCab', function (req, res, next) {
         
         var location = req.params;
      
         var availableCars = carAvailability.getAvailableCars(obj, location.wantRed);
         
+        if (availableCars.length == 0)
+        {
+            res.writeHead(403, {
+                'Content-Type': 'application/json; charset=utf-8'
+                });
+                res.end(JSON.stringify({
+                    error: "Error",
+                    message: "No car is availabe at this moment"
+                }));
+        }
+    
         function getNearestCar(availableCars) {
 
                  var isFirstIteration = true;
@@ -56,14 +66,14 @@ server.post('/api/v1/bookCab', function (req, res, next) {
         return next();
         
     });
-    
+    //this API returns the total number of availabe cabs
     server.post('/api/v1/getCars', function (req, res, next) {
         
-        var isRed = req.params.wantRed;
+       var isRed = req.params.wantRed;
         
        var availableCars = carAvailability.getAvailableCars(obj, isRed);
        
        res.end(JSON.stringify(availableCars));
-        return next();
+       return next();
     });
 };
